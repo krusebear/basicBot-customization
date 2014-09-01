@@ -45,7 +45,7 @@
         //Change the bots default settings
 
         bot.settings = {
-            botName: "basicBot",
+            botName: "Darlington",
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
             maximumAfk: 120,
@@ -67,7 +67,7 @@
                 ["theme", "This song does not fit the room theme. "],
                 ["op", "This song is on the OP list. "],
                 ["history", "This song is in the history. "],
-                ["mix", "You played a mix, which is against the rules. "],
+                ["dumb", "The song you played is just plain stupid. "],
                 ["sound", "The song you played had bad sound quality or no sound. "],
                 ["nsfw", "The song you contained was NSFW (image or sound). "],
                 ["unavailable", "The song you played was not available for some users. "]
@@ -80,7 +80,7 @@
             filterChat: true,
             etaRestriction: false,
             welcome: true,
-            opLink: null,
+            opLink: The op is in the desc of the room!
             rulesLink: null,
             themeLink: null,
             fbLink: null,
