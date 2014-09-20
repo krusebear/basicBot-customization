@@ -80,7 +80,7 @@
             filterChat: true,
             etaRestriction: false,
             welcome: true,
-            opLink: The op is in the desc of the room!
+            opLink: The op is in the desc of the room!,
             rulesLink: null,
             themeLink: null,
             fbLink: null,
