@@ -88,7 +88,7 @@
         filterChat: true,
         etaRestriction: false,
         welcome: true,
-        opLink: null,
+        opLink: http://yolo.com,
         rulesLink: null,
         themeLink: null,
         fbLink: null,
