@@ -45,7 +45,7 @@
         //Change the bots default settings
 
         bot.settings = {
-            botName: "basicBot",
+            botName: "Darlington",
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
             maximumAfk: 120,
