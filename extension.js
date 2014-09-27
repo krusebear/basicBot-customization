@@ -29,15 +29,15 @@
 
          */
 
-        bot.commands.baconCommand = {
-            command: 'bacon',  //The command to be called. With the standard command literal this would be: !bacon
+        bot.commands.commandsCommand = {
+            command: 'commands',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
             functionality: function (chat, cmd) {
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me I <3 Bacon!!!");
+                    API.sendChat("Here are the commands for the bot: https://docs.google.com/document/d/1fupvWzDKr86Ovo7Uxz2iQf0e0XuzZSFgcJhe1M7r0Fw/edit?usp=sharing");
                 }
             }
         }
