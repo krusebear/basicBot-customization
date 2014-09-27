@@ -37,7 +37,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("Here are the commands for the bot: https://docs.google.com/document/d/1fupvWzDKr86Ovo7Uxz2iQf0e0XuzZSFgcJhe1M7r0Fw/edit?usp=sharing");
+                    API.sendChat("/me Here are the commands for the bot: https://docs.google.com/document/d/1fupvWzDKr86Ovo7Uxz2iQf0e0XuzZSFgcJhe1M7r0Fw/edit?usp=sharing");
                 }
             }
         }
@@ -60,7 +60,7 @@
             timeGuard: true,
             maximumSongLength: 10,
             autodisable: true,
-            commandCooldown: 30,
+            commandCooldown: 5,
             usercommandsEnabled: true,
             lockskipPosition: 1,
             lockskipReasons: [
