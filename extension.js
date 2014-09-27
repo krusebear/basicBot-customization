@@ -62,7 +62,7 @@
             autodisable: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
-            lockskipPosition: 3,
+            lockskipPosition: 1,
             lockskipReasons: [
                 ["theme", "This song does not fit the room theme. "],
                 ["op", "This song is on the OP list. "],
@@ -80,7 +80,7 @@
             filterChat: true,
             etaRestriction: false,
             welcome: true,
-            opLink: null,
+            opLink: https://docs.google.com/document/d/1eNaW6JbKnxTHyit8NIZW-XDI3Wic8Okj9jEX0I1JMuE/edit?usp=sharing,
             rulesLink: null,
             themeLink: null,
             fbLink: null,
