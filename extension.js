@@ -70,7 +70,7 @@
                 ["dumb", "The song you played is just plain stupid. "],
                 ["sound", "The song you played had bad sound quality or no sound. "],
                 ["nsfw", "The song you contained was NSFW (image or sound). "],
-                ["na", "The song you played was not available for some users. "]
+                ["na", "The song you played was not available for some users. "],
                 ["wtf", "What the F**k is this XD? "]
             ],
             afkpositionCheck: 15,
