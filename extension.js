@@ -37,7 +37,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me Here are the commands for the bot: https://docs.google.com/document/d/1fupvWzDKr86Ovo7Uxz2iQf0e0XuzZSFgcJhe1M7r0Fw/edit?usp=sharing");
+                    API.sendChat("/me Here are the commands for the bot: http://goo.gl/CeyoyN");
                 }
             }
         }
@@ -81,7 +81,7 @@
             filterChat: true,
             etaRestriction: false,
             welcome: true,
-            opLink: "https://docs.google.com/document/d/1eNaW6JbKnxTHyit8NIZW-XDI3Wic8Okj9jEX0I1JMuE/edit?usp=sharing",
+            opLink: "http://goo.gl/C3MCNN",
             rulesLink: "In The Desc.!",
             themeLink: "In The Desc.!",
             fbLink: "None :(",
