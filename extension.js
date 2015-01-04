@@ -89,7 +89,7 @@
             website: "None :(",
             intervalMessages: [],
             messageInterval: 5,
-            songstats: true,
+            songstats: false,
             commandLiteral: "!"
         };
 
