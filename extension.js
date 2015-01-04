@@ -37,11 +37,22 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me Here are the commands for the bot: http://goo.gl/CeyoyN");
+                    API.sendChat("/me Here are the commands for the bot: https://github.com/Yemasthui/basicBot/blob/master/commands.md And !bacon");
                 }
             }
         }
-
+        bot.commands.baconCommand = {
+            command: 'bacon',  //The command to be called. With the standard command literal this would be: !bacon
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me bacon who said BACON??!?");
+                }
+            }
+        }
         //Change the bots default settings
 
         bot.settings = {
@@ -77,16 +88,16 @@
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Temporary Message of the Day",
+            motd: "Welcone to Powergamings plug.dj!",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
-            opLink: "http://goo.gl/C3MCNN",
+            opLink: "Their is not Over Played List",
             rulesLink: "In The Desc.!",
-            themeLink: "In The Desc.!",
+            themeLink: "The theme is anything!",
             fbLink: "None :(",
             youtubeLink: "None :(",
-            website: "None :(",
+            website: "http://www.powergaming.pw",
             intervalMessages: [],
             messageInterval: 5,
             songstats: false,
